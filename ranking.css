@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(to left, #628dbd, #00ff88, #00b15e, green);
+    background-size: 500% 100%;
+   animation: degrade-animado 5s infinite alternate-reverse;
+    background-position: center;
+}
+
+header{
+    background-color: #445c9c;
+    box-shadow: 0px 3px 10px #464646;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.nav-bar{
+    display: flex ;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.brasao{
+    width: 20%;
+    height: auto;
+}
+
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-link {
+    color: rgb(203, 255, 251);
+}
+
+.nav-list {
+    
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+.imagee {
+    align-items: center;
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px #464646;
+    border-radius: 5px;
+}
+@keyframes degrade-animado {
+    0% {
+    background-position-x: 0%;
+    }
+    
+    100% {
+        background-position-x: 100%;
+    }
+  }
+    

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="book.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+    <div vw class="enabled"> <div vw-access-button class="active"></div> <div vw-plugin-wrapper> <div class="vw-plugin-top-wrapper"></div> </div> </div> <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script> <script> new window.VLibras.Widget('https://vlibras.gov.br/app'); </script>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <p><a href="index.html"><img class="brasao" src="brasao.png"></a></p>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="nosso-espaco.html" class="nav-link">Nosso Espaço</a></li>
+                    <li class="nav-item"><a href="cadastro.html" class="nav-link">Cadastro</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="tela-principal">
+
+        <section class='conteudos'>
+
+            <h1>Livro: Extraordinário</h1>
+
+            <article class='centro' id='instrucoes'>
+                Leia a questão e clique na resposta correta
+            </article>
+
+            <article class='questoes'>
+                
+                <header class='questao'>
+                    <span id='numQuestao'></span>
+                    <h2 id='pergunta'></h2>
+                </header>
+
+                <div class='corpo'>
+                    <ol type='A' id='alternativas'>
+                        <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='c' value='1C' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                    </ol>
+                </div>
+            </article>
+            
+            <article id='aviso'>Questão <span id='numero'></span> de <span id='total'></span></article>
+            
+        </section>
+
+        <footer class='centro'>Desenvolvido por Rafa Kuntz &copy; 2022 Programa Concurso Agrinho</footer>
+    </main>
+
+<script src="quiz.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+
+body
+{
+    background: linear-gradient(to left, #628dbd, #00ff88, #00b15e, green);
+    background-size: 500% 100%;
+   animation: degrade-animado 5s infinite alternate-reverse;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    max-width: 90%;
+    margin: 0 auto;
+	grid-gap: 25px;
+	padding: 40px 10px;
+}
+.container .box{
+    background: #03214e;
+    padding: 15px;
+    display: grid;
+    font-size: 12pt;justify-content: center;
+    place-items: center;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
+.container .box:hover
+{
+background: #45f353;
+text-transform: uppercase;
+text-decoration: black;
+}
+.container .box img
+{
+    width: 70%;
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.titlesbook{
+    font-size: 20pt;justify-content: center;
+    color: rgb(70, 209, 252);
+}
+
+.voltar{
+    width: 70px;
+    height: 41px;
+    background: #00ff2a;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+@media (max-width:930px) {
+    .img-box{
+        display: none;
+    }
+    .box{
+        width: 700px;
+    }
+    .form-box{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+@media (max-width:500px) {
+    .w50{
+        width: 100%;
+        padding: 0;
+    }
+}
+@keyframes degrade-animado {
+    0% {
+    background-position-x: 0%;
+    }
+    
+    100% {
+        background-position-x: 100%;
+    }
+  }
+    
