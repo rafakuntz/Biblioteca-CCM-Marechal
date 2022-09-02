@@ -7,8 +7,8 @@ let allMusic = [
     src: "music-1"
   },
   {
-    name: "O Pequeno Principe",
-    artist: "Antoine de Saint-Exupéry",
+    name: "Prosa e Verso: Ano Novo",
+    artist: "Carlos Drummond de Andrade",
     img: "music-2",
     src: "music-2"
   },
