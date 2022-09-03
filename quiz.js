@@ -41,19 +41,19 @@ const q1 = {
 const q2 = {
     numQuestao   : 2,
     pergunta     : "De quem August ganhou o seu capacete de astronauta?",
-    alternativaA : "Miranda",
-    alternativaB : "Cristopher",
-    alternativaC : "Scheila",
-    correta      : "Miranda",
+    alternativaA : "Miranda.",
+    alternativaB : "Cristopher.",
+    alternativaC : "Scheila.",
+    correta      : "Miranda.",
 }
 
 const q3 = {
     numQuestao   : 3,
     pergunta     : "Quem era o diretor da escola de August?",
-    alternativaA : "Dire Dani",
-    alternativaB : "Sr. Buzanfa",
-    alternativaC : "Sr. Brown",
-    correta      : "Sr. Buzanfa",
+    alternativaA : "Dire Dani.",
+    alternativaB : "Sr. Buzanfa.",
+    alternativaC : "Sr. Brown.",
+    correta      : "Sr. Buzanfa.",
 }
 
 const q4 = {
@@ -77,10 +77,10 @@ const q5 = {
 const q6 = {
     numQuestao   : 6,
     pergunta     : "Qual a matéria preferida de Auggie?",
-    alternativaA : "Ciências",
-    alternativaB : "Arte",
-    alternativaC : "Matemática",
-    correta      : "Ciências",
+    alternativaA : "Ciências.",
+    alternativaB : "Arte.",
+    alternativaC : "Matemática.",
+    correta      : "Ciências.",
 }
 
 const q7 = {
@@ -95,28 +95,28 @@ const q7 = {
 const q8 = {
     numQuestao   : 8,
     pergunta     : "A trança que August tinha fazia referência a...",
-    alternativaA : "Padawan",
-    alternativaB : "Harry Potter",
-    alternativaC : "Chewbaca",
-    correta      : "Padawan",
+    alternativaA : "Padawan.",
+    alternativaB : "Harry Potter.",
+    alternativaC : "Chewbaca.",
+    correta      : "Padawan.",
 }
 
 const q9 = {
     numQuestao   : 9,
     pergunta     : "Auggie costumava observar os sapatos das pessoas porque…",
     alternativaA : "Adorava moda.",
-    alternativaB : "Achava que o sapato revelava como a pessoa era",
-    alternativaC : "Fazia coleção de sapatos",
-    correta      : "Achava que o sapato revelava como a pessoa era",
+    alternativaB : "Achava que o sapato revelava como a pessoa era.",
+    alternativaC : "Fazia coleção de sapatos.",
+    correta      : "Achava que o sapato revelava como a pessoa era.",
 }
 
 const q10 = {
     numQuestao   : 10,
     pergunta     : "Qual é o nome do filme que August foi assistir no acampamento?",
-    alternativaA : "O mágico de Oz",
-    alternativaB : "A noiva fantasma",
-    alternativaC : "Titanic",
-    correta      : "O mágico de Oz",
+    alternativaA : "O mágico de Oz.",
+    alternativaB : "A noiva fantasma.",
+    alternativaC : "Titanic.",
+    correta      : "O mágico de Oz.",
 }
 
 const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
