@@ -525,3 +525,7 @@ html, body {
 .btn:hover::after {
     margin-top:-8px;
 }
+
+.fonte{ 
+     color: rgb(2, 90, 167); 
+ }
